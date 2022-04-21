@@ -1,6 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
 import './App.css';
-
 const App = () => {
   const [timerDays, setTimerDays] = useState('00');
   const [timerHours, setTimerHours] = useState('00');
@@ -41,12 +40,12 @@ const App = () => {
   return (
     <>
     <div className="App container-xl-12">
-      <div className='pt-5 logo-design'>
-        <img src='/logo-k.png' alt='logo'/>
+      <div className='logo-design' style={{ paddingTop: '10%' }}>
+        <img src='/logo-k.png' alt='logo'style={{  width: "100px" }}/><span style={{ fontSize: '40px', fontWeight:"800", color:'#2f348f'}}> Moving Machines Limited</span>
       </div>
       <div className='text pt-4'>
         <h1 style={{ color: '#fff' }}>We Are Coming Soon!</h1>
-        <p style={{ color: '#fff' }}>Our Website Is under Development We Will Coming Soon</p>
+        <p style={{ color: '#4700D8', fontSize: "20px" }}>Our Website Is under Development</p>
       </div>
       <div className='countdown d-flex justify-content-center'>
         <ul >
